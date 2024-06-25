@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: url(bg-image.svg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+main {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-bottom: 44px;
+}
+
+h1 {
+    margin-bottom: 14px;
+    text-align: center;
+    color: #FFFF;
+    font-size: 64px;
+}
+
+h4 {
+    margin-bottom: 72px;
+    color: #FFFF;
+    font-size: 32px;
+    text-align: center;
+}
+
+.form_container {
+    background-color: rgb(255 255 255 / 30%);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 32px;
+    box-sizing: border-box;
+    width: 810px;
+    margin-bottom: 100px;
+}
+
+label {
+    color: #F8FAFC;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+input {
+    background-color: #F8FAFC;
+    border-radius: 16px;
+    padding: 24px 18px;
+    box-sizing: border-box;
+    height: 50px;
+    border: none;
+    width: 284px;
+    margin-right: 18px;
+    color: #CDD5E0;
+}
+
+select {
+    background-color: #F8FAFC;
+    border-radius: 16px;
+    box-sizing: border-box;
+    height: 50px;
+    border: none;
+    width: 284px;
+    margin-right: 18px;
+    padding: 0 18px;
+}
+
+.riga {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.messagelab {
+    margin-bottom: 4px;
+}
+
+textarea {
+    border-radius: 16px;
+    border: none;
+    font-size: 14px;
+    color: #111729;
+    width: 710px;
+    height: 200px;
+    padding: 24px 18px;
+    resize: none;
+}
+
+.btn {
+    width: 746px;
+    color: #4036A9;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #FFFF;
+    text-align: center;
+    border-radius: 16px;
+    border: none;
+    height: 70px;
+}
+
+.button-content {
+    margin-top: 24px;
+}
+
+.princ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comp-size {
+    font-size: 14px;
+    font-weight: bold;
+    color: #111729;
+}
+
+.subject {
+    font-size: 14px;
+    font-weight: bold;
+    color: #111729;
+}
+
+.name {
+    margin-bottom: 4px;
+}
